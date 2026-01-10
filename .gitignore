@@ -1,0 +1,19 @@
+# --- PyInstaller (ビルド生成物) ---
+build/
+dist/
+*.manifest
+
+# --- Python (コンパイルキャッシュ) ---
+__pycache__/
+*.pyc
+
+# --- 仮想環境 (ライブラリなど) ---
+venv/
+.venv/
+env/
+
+# --- macOS (不要なメタデータ) ---
+.DS_Store
+
+# --- 個人情報が内蔵されたデータ ---
+SecurePDFMerger.spec
